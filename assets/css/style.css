@@ -9326,7 +9326,7 @@ footer hr {
 }
 
 .widget-social {
-	background-color: #1c1c1c;
+	background-color: #00418a;
 	padding-top: 34px;
 	padding-bottom: 34px;
 	padding-left: 0
@@ -10033,84 +10033,24 @@ footer hr {
 
   /* list */
 
-  .slider__item__text{
-    width: 100%;
-    top: 50%;
-    left: 50%;
+  .slider_text {
+    border: 1px solid #2f2f2f;
+    padding: 25px;
+    border-radius: 30px;
+    width: 50%;
+    top: 77%;
+    left: 29%;
     z-index: 25;
     position: absolute;
     text-align: left;
     transform: translate(-50%, -50%);
+    background-color: #ddddddb5;
     
-    span{
-        color: white;
+     h1{
         font-family: 'Nunito', sans-serif;
-        font-weight: 300;
-        font-size: 0.8rem;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        display: block;
-        position: relative;
-        padding-left: 10px;
-        margin-bottom: 8px;
-        
-        &:before{
-            content: '';
-            top: 50%;
-            left: 0px;
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            transform: translateY(-50%);
-            background-color: var(--color-secundary);
-        }
-    }
-    
-    h1{
-        font-family: 'Nunito', sans-serif;
-        color: white;
-        font-size: 4vw;
-        font-weight: 800;
-        position: relative;
         margin-bottom: 10px;
-        opacity: 0;
     }
-    
-    p{
-        font-family: 'Nunito', sans-serif;
-        color: white;
-        font-size: 1.2rem;
-        font-weight: 400;
-        width: 33.33333%;
-        position: relative;
-        margin-bottom: 10px;
-        opacity: 0;
-    }
-    
-    a{
-        font-family: 'Nunito', sans-serif;
-        color: white;
-        font-size: 1.4rem;
-        font-weight: 700;
-        text-decoration: none;
-        display: inline-block;
-        position: relative;
-        margin-top: 35px;
-        padding: 0.8rem 2rem;
-        border: 0px;
-        border-radius: 5px;
-        transition: all 0.3s ease-in-out;
-        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-        background-color: var(--color-primary);
-        opacity: 0;
-        
-        &:hover{
-            color: white;
-            background-color: var(--color-secundary);
-            text-decoration: none;
-            transition: all 0.3s ease-in-out;
-        }
-    }
+
 }
 
 
@@ -10122,7 +10062,7 @@ footer hr {
 	height:100px;
 	/* position:absolute; */
 	left:0px;
-	background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
+	background: linear-gradient(to left bottom, #fff 49%, #00418a 50%);
   }
 
   .skew-cc{
@@ -10130,5 +10070,5 @@ footer hr {
 	height:100px;
 	/* position:absolute; */
 	left:0px;
-	background: linear-gradient(to left bottom, #823A9C 49%, #fff 50%);
+	background: linear-gradient(to left bottom, #00418a 49%, #fff 50%);
   }
