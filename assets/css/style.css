@@ -1737,7 +1737,8 @@ transform: scale(1.0);
 }
 
 .full-header .navbar.affix {
-	background-color: #fff
+	/* background-color: #fff */
+	background-color: #337ab761
 }
 
 .full-header .navbar-fixed-top.affix {
@@ -9855,48 +9856,67 @@ footer hr {
 	background: #eee;
   }
   
+  .carousel-cell-6 {
+	width: 90%;
+	height: 100vh;
+	margin-right: 10px;
+	background-image: url(../../assets/images/sliders/1.jpg);
+	background-size: 100% 100%;
+  }
+  .carousel-cell-7 {
+	width: 90%;
+	height: 100vh;
+	margin-right: 10px;
+	background-image: url(../../assets/images/sliders/2.jpg);
+	background-size: 100% 100%;
+  }
+  .carousel-cell-8 {
+	width: 90%;
+	height: 100vh;
+	margin-right: 10px;
+	background-image: url(../../assets/images/sliders/3.jpg);
+	background-size: 100% 100%;
+  }
+  .carousel-cell-9 {
+	width: 90%;
+	height: 100vh;
+	margin-right: 10px;
+	background-image: url(../../assets/images/sliders/4.jpg);
+	background-size: 100% 100%;
+  }
+
+
   .carousel-cell-1 {
-	width: 100%;
+	width: 99%;
 	height: 100vh;
 	/* margin-right: 10px; */
 	background-image: url(../../assets/images/sliders/1.jpg);
-	/* background-color: #00418a; */
 	background-size: 100% 100%;
-	/* border-radius: 5px; */
-	counter-increment: carousel-cell;
   }
   
   .carousel-cell-2 {
-	width: 100%;
+	width: 99%;
 	height: 100vh;
 	/* margin-right: 10px; */
 	background-image: url(../../assets/images/sliders/2.jpg);
 	background-size: 100% 100%;
-	/* background-color: green; */
 
-	/* border-radius: 5px; */
-	counter-increment: carousel-cell;
   }
   
   .carousel-cell-3 {
-	width: 100%;
+	width: 99%;
 	height: 100vh;
-	/* background-color: #a94442; */
 	/* margin-right: 10px; */
 	background-image: url(../../assets/images/sliders/3.jpg);
 	background-size: 100% 100%;
-	/* border-radius: 5px; */
-	counter-increment: carousel-cell;
   }
   
   .carousel-cell-4 {
-	width: 100%;
+	width: 99%;
 	height: 100vh;
 	/* margin-right: 10px; */
 	background-image: url(../../assets/images/sliders/4.jpg);
 	background-size: 100% 100%;
-	/* border-radius: 5px; */
-	counter-increment: carousel-cell;
   }
   
   /* cell number */
@@ -10075,4 +10095,32 @@ footer hr {
 	/* position:absolute; */
 	left:0px;
 	background: linear-gradient(to left bottom, #00418a 49%, #fff 50%);
+  }
+
+  /* carousel 2 */
+
+  .carousel2 {
+	display: flex;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+  }
+  
+  .carousel-item {
+	flex: 0 0 auto;
+	margin-right: 20px;
+	scroll-snap-align: start;
+	width: 100%;
+  }
+
+  @media (min-width: 600px) {
+	.carousel-item {
+	  width: 50%;
+	}
+  }
+  
+  @media (min-width: 900px) {
+	.carousel-item {
+	  width: 33.33%;
+	}
   }
