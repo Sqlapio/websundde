@@ -29,10 +29,7 @@
 <!-- Boostrap Core CSS -->
 <link href="assets/css/style.css" rel="stylesheet">
 <!-- Style CSS -->
-<!-- RS5.0 Main Stylesheet -->
-<link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
-<link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
-<link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css"> 
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -54,22 +51,23 @@
 		</div>
 	</div>
 </div>
-<header id="navbar-spy" class="full-header header-3">
-	<nav id="primary-menu" class="navbar navbar-fixed-top style-1">
-		<div id="top-bar" class="top-bar hidden-sm hidden-xs">
-			<div class="container" style="width: 90%;">
-				<div class="row">
-					<div class="col-xs-6 col-sm-6 col-md-6 hidden-sm hidden-xs">
-						<img src="assets/images/logo/gob.png" alt="logo" style="height: 65px; ">
-					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 hidden-sm hidden-xs" style="display: flex; justify-content: flex-end;">
-						<img src="assets/images/logo/200.png" alt="logo" style="height: 60px;">
-					</div>
+<header id="navbar-spy" class="full-header">
+	<div id="top-bar" class="top-bar hidden-sm hidden-xs">
+		<div class="container" style="width: 90%;">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 hidden-sm hidden-xs">
+					<img src="assets/images/logo/gob.png" alt="logo" style="height: 65px; ">
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 hidden-sm hidden-xs" style="display: flex; justify-content: flex-end;">
+					<img src="assets/images/logo/200.png" alt="logo" style="height: 60px;">
 				</div>
 			</div>
 		</div>
+	</div>
+	<nav id="primary-menu" class="navbar navbar-fixed-top style-1">
 		<div class="row">
-			<div class="container" style="width: 90%;">
+			<div class="container  navbar-mb" style="width: 90%;">
+				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
@@ -78,9 +76,11 @@
 					<span class="icon-bar"></span>
 					</button>
 					<a class="logo" href="index.html">
-						<img src="assets/images/logo/logo.png" alt="logo" height="200">
+						<img class="nav-img" src="assets/images/logo/logo.png" alt="Yellow Hats" height="200" style="margin-top: 10px;">
 					</a>
 				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-left">
 						<li>
@@ -102,49 +102,13 @@
 	</nav>
 </header>
 
-<!-- Hero Section
+<!-- Carrusel
 ============================================= -->
-	<div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }' style="margin-top: -118px;">
-	<div class="carousel-cell-6">
-		<div class="slider_text">
-			<a href="#" role="button">
-				<h1 style="margin-bottom: 10px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
-				<p style="color: black;">24 de febrero de 2024</p>
-			</a>
-		</div>
-	</div>
-	<div class="carousel-cell-7">
-		<div class="slider_text">
-			<a href="#" role="button">
-				<h1 style="margin-bottom: 10px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
-				<p style="color: black;">24 de febrero de 2024</p>
-			</a>
-		</div>
-	</div>
-	<div class="carousel-cell-8">
-		<div class="slider_text">
-			<a href="#" role="button">
-				<h1 style="margin-bottom: 10px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
-				<p style="color: black;">24 de febrero de 2024</p>
-			</a>
-		</div>
-	</div>
-	<div class="carousel-cell-9">
-		<div class="slider_text">
-			<a href="#" role="button">
-				<h1 style="margin-bottom: 10px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
-				<p style="color: black;">24 de febrero de 2024</p>
-			</a>
-		</div>
-	</div>
-  	</div>
-  	<div class="skew-cc"></div>
-
-	<!-- <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": 10000 }' >
+	<div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true }'>
 		<div class="carousel-cell-1">
 			<div class="slider_text">
 				<a href="#" role="button">
-					<h1 style="margin-bottom: 10px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
+					<h1  style="margin-bottom: 10px; font-size: 20px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
 					<p style="color: black;">24 de febrero de 2024</p>
 				</a>
 			</div>
@@ -152,7 +116,7 @@
 		<div class="carousel-cell-2">
 			<div class="slider_text">
 				<a href="#" role="button">
-					<h1 style="margin-bottom: 10px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
+					<h1 style="margin-bottom: 10px; font-size: 20px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
 					<p style="color: black;">24 de febrero de 2024</p>
 				</a>
 			</div>
@@ -160,7 +124,7 @@
 		<div class="carousel-cell-3">
 			<div class="slider_text">
 				<a href="#" role="button">
-					<h1 style="margin-bottom: 10px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
+					<h1 style="margin-bottom: 10px; font-size: 20px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
 					<p style="color: black;">24 de febrero de 2024</p>
 				</a>
 			</div>
@@ -168,79 +132,77 @@
 		<div class="carousel-cell-4">
 			<div class="slider_text">
 				<a href="#" role="button">
-					<h1>630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
+					<h1  style="margin-bottom: 10px; font-size: 20px;">630 productores y comerciantes de Petare aportan sus ideas para la Agenda #7T</h1>
 					<p style="color: black;">24 de febrero de 2024</p>
 				</a>
 			</div>
 		</div>
-	</div> -->
-	
-<!-- Shortcode #9 
-============================================= -->
+	</div>
 
-<section id="clients" class="shortcode-9">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				<div class="heading heading-2 text-center">
-					<div class="heading-bg">
-						<h4>Ministerio del Poder Popular de Comercio Nacional</h4>
+<!-- ministerios -->
+	<div class="skew-cc"></div>
+	<section id="clients" class="shortcode-9">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="heading heading-2 text-center">
+						<div class="heading-bg">
+							<h4>Ministerio del Poder Popular de Comercio Nacional</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<div class="brand">
+						<a href="http://www.sencamer.gob.ve/" target="_blank">
+							<img class="img-responsive center-block" src="assets/images/clients/01-Logo-MinComercio-Pequeno.png" alt="brand">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<div class="brand">
+						<a href="http://www.sencamer.gob.ve/" target="_blank">
+							<img class="img-responsive center-block" src="assets/images/clients/02-Logo-Sencamer-Pequeno.png" alt="brand">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<div class="brand">
+						<a href="https://sapi.gob.ve/" target="_blank">
+							<img class="img-responsive center-block" src="assets/images/clients/03-Logo-SAPI-Pequeno.png" alt="brand">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<div class="brand">
+						<a href="https://almccs.gob.ve/site/" target="_blank">
+							<img class="img-responsive center-block" src="assets/images/clients/04-Logo-Almacenadora-Pequeno.png" alt="brand">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<div class="brand">
+						<a href="http://www.mppef.gob.ve/comision-antidumping-y-sobre-subsidios-cass/" target="_blank">
+							<img class="img-responsive center-block" src="assets/images/clients/05-Logo-CASS-Pequeno.png" alt="brand">
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-4 col-md-2">
+					<div class="brand last">
+						<a href="http://antimonopolio.gob.ve/" target="_blank">
+							<img class="img-responsive center-block" src="assets/images/clients/06-Logo-Antimonopolio-Pequeno.png" alt="brand">
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-md-2">
-				<div class="brand">
-					<a href="http://www.sencamer.gob.ve/" target="_blank">
-						<img class="img-responsive center-block" src="assets/images/clients/01-Logo-MinComercio-Pequeno.png" alt="brand">
-					</a>
-				</div>
-			</div>
-			
-			<div class="col-xs-12 col-sm-4 col-md-2">
-				<div class="brand">
-					<a href="http://www.sencamer.gob.ve/" target="_blank">
-						<img class="img-responsive center-block" src="assets/images/clients/02-Logo-Sencamer-Pequeno.png" alt="brand">
-					</a>
-				</div>
-			</div>
-			
-			<div class="col-xs-12 col-sm-4 col-md-2">
-				<div class="brand">
-					<a href="https://sapi.gob.ve/" target="_blank">
-						<img class="img-responsive center-block" src="assets/images/clients/03-Logo-SAPI-Pequeno.png" alt="brand">
-					</a>
-				</div>
-			</div>
-			
-			<div class="col-xs-12 col-sm-4 col-md-2">
-				<div class="brand">
-					<a href="https://almccs.gob.ve/site/" target="_blank">
-						<img class="img-responsive center-block" src="assets/images/clients/04-Logo-Almacenadora-Pequeno.png" alt="brand">
-					</a>
-				</div>
-			</div>
-			
-			<div class="col-xs-12 col-sm-4 col-md-2">
-				<div class="brand">
-					<a href="http://www.mppef.gob.ve/comision-antidumping-y-sobre-subsidios-cass/" target="_blank">
-						<img class="img-responsive center-block" src="assets/images/clients/05-Logo-CASS-Pequeno.png" alt="brand">
-					</a>
-				</div>
-			</div>
-			
-			<div class="col-xs-12 col-sm-4 col-md-2">
-				<div class="brand last">
-					<a href="http://antimonopolio.gob.ve/" target="_blank">
-						<img class="img-responsive center-block" src="assets/images/clients/06-Logo-Antimonopolio-Pequeno.png" alt="brand">
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
+	</section>
 
 <!-- footer -->
 <div class="skew-c"></div>
@@ -285,12 +247,10 @@
 	</div>
 </footer>
 
-
 <!-- Footer Scripts
 ============================================= -->
 <script src="assets/js/jquery-2.1.1.min.js"></script>
 <script src="assets/js/plugins.js?v=1.0.0"></script>
 <script src="assets/js/functions.js?v=1.2.0"></script>
-
 </body>
 </html>
