@@ -1629,7 +1629,7 @@ transform: scale(1.0);
 	/* height: 143px; */
 	height: 30vh;
 	/* background-color: #337ab761; */
-	background: linear-gradient(to left bottom, #00418a 42%, #fff 100%);
+	background: linear-gradient(to left bottom, #00418a 66%, #fff 100%);
 	/* background-color: #fff; */
 	box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
 	-moz-box-shadow: 0 2px 3px rgba(39, 41, 48, 0.03);
